@@ -8,7 +8,7 @@ from app_ml import run_ml_app
 def main() :
     st.title('2020년 전국 날씨')
 
-    menu = ['Home', 'eda', 'ml']
+    menu = ['Home', '데이터 분석', '평년기온 예측']
 
     choice = st.sidebar.selectbox('메뉴 선택', menu)
 
