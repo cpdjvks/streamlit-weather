@@ -2,7 +2,7 @@ import streamlit as st
 
 def run_home_app():
     st.subheader('Home')
-    st.text('2020년 전국 날씨를 분석하는 앱입니다.')
+    st.text('2020년 전국 날씨를 분석하는 앱입니다!')
     
     st.text('평년기온, 최고기온, 최저기온, 강수량, 풍량 등을 분석합니다.')
 
